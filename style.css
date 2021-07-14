@@ -1,0 +1,39 @@
+#toprow {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+#topleft {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-start;
+}
+#topright {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-end;
+}
+#pfp {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: right;
+}
+
+#icon {
+    width: 30px;
+    height: 30px;
+}
+.textlink {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 14px;
+}
+.textlink:link {
+    text-decoration: none;
+}
+.textlink:hover {
+    text-decoration: underline;
+}

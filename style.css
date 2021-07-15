@@ -19,7 +19,6 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    float: right;
 }
 
 #icon {
@@ -36,4 +35,13 @@
 }
 .textlink:hover {
     text-decoration: underline;
+}
+#middle {
+    display: flex;
+    height: 500px;
+    align-items: center;
+}
+.googlo {
+    display: block;
+    /* align-self: center; */
 }

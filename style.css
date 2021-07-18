@@ -1,7 +1,8 @@
 #toprow {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     padding: 6px;
+    height: 109px;
 }
 #topleft {
     display: flex;
@@ -38,8 +39,9 @@
 }
 #middle {
     display: flex;
-    height: 500px;
-    align-items: center;
+    height: 565px;
+    align-items: flex-start;
+    justify-content: center;
 }
 .googlo {
     display: block;

@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 #toprow {
     display: flex;
     align-items: flex-start;
@@ -21,7 +24,6 @@
     height: 30px;
     border-radius: 50%;
 }
-
 #icon {
     width: 30px;
     height: 30px;
@@ -39,11 +41,36 @@
 }
 #middle {
     display: flex;
-    height: 565px;
+    height: 553px;
     align-items: flex-start;
     justify-content: center;
 }
 .googlo {
-    display: block;
-    /* align-self: center; */
+    display: flex;
+    justify-content: center;
+}
+#bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+#bottomrow {
+    display: flex;
+    align-items: flex-start;
+    padding: 6px;
+}
+#bottomleft {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-start;
+    height: 40px;
+}
+#bottomright {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-end;
+    height: 40px;
 }

@@ -11,28 +11,32 @@
         <header>
             <nav id="toprow">
                 <div id="topleft">
-                    <a class="textlink" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
-                    <a class="textlink" href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+                    <a class="navlink textlink" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+                    <a class="navlink textlink" href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
                 </div>
                 <div id="topright">
-                    <a class="textlink" href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%26ogbl%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Gmail</a>
-			        <a class="textlink" href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
+                    <a class="navlink textlink" href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%26ogbl%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Gmail</a>
+			        <a class="navlink textlink" href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
                     <a href="#">
-                        <img id="icon" src="imgs/googleicon.png" alt="Google apps icon">
+                        <img class="navlink" id="icon" src="imgs/googleicon.png" alt="Google apps icon">
                     </a>
 			        <a href="https://github.com/RobertBangiyev">
-				        <img id="pfp" src="imgs/githubpfp.png" alt="Github profile picture">
+				        <img class="navlink" id="pfp" src="imgs/githubpfp.png" alt="Github profile picture">
 			        </a>
                 </div>
             </nav>
         </header>
         <main id="middle">
             <article>
-                <img class="googlo" src="imgs/googlelogo.png" alt="Google Logo">
+                <div id="google">
+                    <img class="googlo" src="imgs/googlelogo.png" alt="Google Logo">
+                </div>
                 <div class="googlo">
-                    <img src="imgs/searchicon.png" alt="Search icon">
-                    <input type="text">
-                    <img src="imgs/mic.png" alt="Mic">
+                    <div id="searchbar">
+                        <img id="searchimg" src="imgs/searchicon.png" alt="Search icon">
+                        <input type="text">
+                        <a href="#"><img id="mic" src="imgs/mic.png" alt="Mic"></a>
+                    </div>
                 </div>
                 <div class="googlo">
                     <button>Google Search</button>
@@ -43,14 +47,14 @@
         <footer id="bottom">
             <div id="bottomrow">
                 <div id="bottomleft">
-                    <a class="textlink" href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
-                    <a class="textlink" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
-                    <a class="textlink" href="https://google.com/search/howsearchworks/?fg=1">How Search works</a>
+                    <a class="navlink textlink" href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+                    <a class="navlink textlink" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
+                    <a class="navlink textlink" href="https://google.com/search/howsearchworks/?fg=1">How Search works</a>
                 </div>
                 <div id="bottomright">
-                    <a class="textlink" href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
-                    <a class="textlink" href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
-                    <a class="textlink" href="#">Settings</a>
+                    <a class="navlink textlink" href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
+                    <a class="navlink textlink" href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
+                    <a class="navlink textlink" href="#">Settings</a>
                 </div>
             </div>
         </footer>

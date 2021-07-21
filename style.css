@@ -28,6 +28,10 @@ body {
 #icon {
     width: 30px;
     height: 30px;
+    border-radius: 50%;
+}
+#icon:hover {
+    color: rgb(175, 175, 175);
 }
 .textlink {
     font-family: "Roboto", sans-serif;
@@ -52,8 +56,6 @@ body {
 }
 input {
     width: 500px;
-    /* padding: 10px 0 10px 0; */
-    /* margin: 30px 0 30px 0; */
     height: 35px;
     border: none;
     font-size: 16px;
@@ -66,18 +68,37 @@ input {
     margin: 30px 0 30px 0;
     display: flex;
     align-items: center;
+    height: 45px;
+    border-radius: 30px;
+}
+#searchbar:hover {
+    box-shadow: 1px 1px 5px 1px #dcdcdd;
+}
+#searchbar:focus-within {
+    box-shadow: 1px 1px 5px 1px #dcdcdd;
 }
 #searchimg {
     height: 20px;
     width: 20px;
-    padding: 5px;
-    
+    padding: 10px;
 }
 #mic {
     height: 20px;
+    padding: 10px;
 }
 button {
-    margin: 0 5px 0 5px;
+    margin: 0 5px;
+    padding: 0 5px;
+    height: 36px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    border: none;
+    color: #3c4043;
+    background-color: #f8f9fa;
+}
+button:hover {
+    border: 1px solid #e3e4e7;
 }
 .googlo {
     display: flex;
@@ -110,5 +131,8 @@ button {
     height: 40px;
 }
 .navlink {
-    padding: 5px;
+    padding: 8px;
+}
+.bottomlink {
+    color: #70757a;
 }
